@@ -31,7 +31,7 @@ pipeline {
         }
       }
     }
-    /*
+
     stage('DT Deploy Event') {
       steps {
         createDynatraceDeploymentEvent(
@@ -50,6 +50,6 @@ pipeline {
         }
       }
     }
-    */
+
   }
 }
